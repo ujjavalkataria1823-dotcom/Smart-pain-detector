@@ -1,5 +1,11 @@
-dependencies:
+name: smart_pain_detector
+description: A smart pain detection app
+
+enviroment:
+ sdk: ">=2.17.0 <4.0.0"
+
+ dependencies:
   flutter:
-    sdk: flutter
+   sdk: flutter
   shared_preferences: ^2.2.2
   flutter_local_notifications: ^17.0.0
